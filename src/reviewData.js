@@ -1,0 +1,58 @@
+export const reviews = [
+    {
+      id: 1,
+      name: "Ahmet Yılmaz",
+      comment: "Diyetisyen çok ilgili ve bilgiliydi. Çok memnun kaldım!",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 2,
+      name: "Ayşe Kaya",
+      comment: "Sağlıklı beslenme konusunda çok yardımcı oldu.",
+      rating: 4,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 3,
+      name: "Mehmet Demir",
+      comment: "Harika bir deneyimdi, kesinlikle tavsiye ederim.",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 4,
+      name: "Zeynep Çelik",
+      comment: "Beslenme programı hayatımı değiştirdi, teşekkürler!",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 5,
+      name: "Zeynep Çelik",
+      comment: "Beslenme programı hayatımı değiştirdi, teşekkürler!",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 6,
+      name: "Zeynep Çelik",
+      comment: "Beslenme programı hayatımı değiştirdi, teşekkürler!",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 7,
+      name: "Zeynep Çelik",
+      comment: "Beslenme programı hayatımı değiştirdi, teşekkürler!",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      id: 8,
+      name: "Zeynep Çelik",
+      comment: "Beslenme programı hayatımı değiştirdi, teşekkürler!",
+      rating: 5,
+      image: "https://via.placeholder.com/150",
+    },
+  ];
