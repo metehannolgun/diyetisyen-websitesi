@@ -82,6 +82,11 @@ const Navbar = () => {
               Sağlıklı Tarifler
             </Link>
           </li>
+          <li className="px-3 py-2 text-center text-white border border-transparent rounded-lg hover:bg-red-400 hover:text-white transition-all duration-300">
+            <Link to="/sss" onClick={() => setIsMenuOpen(false)}>
+              Sukça Sorulan Sorular
+            </Link>
+          </li>
         </ul>
 
         {/* Button Section */}

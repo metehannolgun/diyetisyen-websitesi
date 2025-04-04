@@ -6,6 +6,7 @@ import Tarifler from "./pages/Tarifler"
 import TarifDetay from "./pages/TarifDetay"
 import Danisanlar from "./pages/Danisanlar"
 import Contact from "./pages/Contact"
+import SSS from "./pages/SSS"
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
         <Route path='/tarif/:id' element={<TarifDetay />} />
         <Route path='/danisanlar' element={<Danisanlar />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/sss' element={<SSS />} />
     </Routes>
   )
 }
