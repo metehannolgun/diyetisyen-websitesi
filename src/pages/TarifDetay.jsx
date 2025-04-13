@@ -27,7 +27,11 @@ const TarifDetay = () => {
       <div className='bg-white rounded-lg shadow-xl p-4 m-4 w-full md:w-1/2'>
         <h1 className='text-3xl font-bold mb-4'>{tarif.isim}</h1>
         <h2 className='text-2xl font-bold mb-4'>Yapılış</h2>
-        <p className='text-gray-700'>{tarif.yapilis}</p>
+        <ul className='list-decimal pl-5'>
+          {tarif.yapilis.split('\n').map((adim, index) => (
+            <li key={index} className='text-gray-700 mb-2'>{adim}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )
